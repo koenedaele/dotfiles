@@ -19,6 +19,8 @@ packages=(
   skype
   spotify-client
   nautilus-dropbox
+  fontconfig
+  ttf-mscorefonts-installer
 )
 
 packages=($(setdiff "${packages[*]}" "$(dpkg --get-selections | grep -v deinstall | awk '{print $1}')"))
