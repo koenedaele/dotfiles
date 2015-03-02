@@ -302,11 +302,12 @@ Plug 'mhinz/vim-signify'
 Plug 'mattn/emmet-vim'
 Plug 'mustache/vim-mustache-handlebars'
 Plug 'chase/vim-ansible-yaml'
-Plug 'wavded/vim-sass'
+Plug 'cakebaker/scss-syntax.vim'
 Plug 'morhetz/gruvbox'
 Plug 'freeo/vim-kalisi'
 Plug 'klen/python-mode', {'for': 'python'}
 Plug 'Glench/Vim-Jinja2-Syntax', {'for': 'jinja'}
+Plug 'StanAngeloff/php.vim', {'for': 'php'}
 Plug 'terryma/vim-multiple-cursors'
 Plug 'wting/rust.vim', {'for': 'rust'}
 call plug#end()
