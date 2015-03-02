@@ -21,6 +21,8 @@ packages=(
   nautilus-dropbox
   fontconfig
   ttf-mscorefonts-installer
+  openvpn
+  xca
 )
 
 packages=($(setdiff "${packages[*]}" "$(dpkg --get-selections | grep -v deinstall | awk '{print $1}')"))
