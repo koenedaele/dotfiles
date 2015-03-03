@@ -23,6 +23,7 @@ packages=(
   ttf-mscorefonts-installer
   openvpn
   xca
+  ubuntu-restricted-extras
 )
 
 packages=($(setdiff "${packages[*]}" "$(dpkg --get-selections | grep -v deinstall | awk '{print $1}')"))
